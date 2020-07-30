@@ -1,0 +1,466 @@
+
+.containermain{
+  /*height: 600px !important;*/
+  background: #f6ab6c;
+  display: flex;
+  justify-content: center;
+  border: 10px solid;
+  border-color: white;
+  padding: 20px;
+  height:1000px;
+
+}
+.containercasillas{
+  margin: 0 auto;
+}
+.colortablero{
+  background: #99b898;
+  border:10px solid;
+  border-color: #99b898 !important;
+}
+.brdcasilla1{
+  border-left: 5px solid;
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+}
+.brdcasilla2{
+  border-right: 5px solid;
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+}
+.brdall{
+  border: 5px solid;
+  border-left: 1px;
+  border-right: 1px;
+}
+.brdall-botton{
+  border-top: 1px;
+  bottom:0px;
+  position:absolute;
+}
+.brdall-top{
+  border-bottom: 1px;
+}
+.containerplayer1{
+  background: red;
+  border: 2px solid white;
+  font-weight: bold;
+  font-size: 150%;
+  color: white;
+  text-align: center;
+  border-radius:10px;
+}
+.containerplayer2{
+  margin-top: 15px;
+  background: blue;
+  border: 2px solid white;
+  font-weight: bold;
+  font-size: 150%;
+  color: white;
+  text-align: center;
+  border-radius:10px;
+}
+.containerplayer1-mensaje{
+  margin-top: 15px;
+  background: rgba(255, 0, 0, 0.7);
+  font-weight: bold;
+  font-size: 120%;
+  color: white;
+  text-align: center;
+  border-radius:10px;
+}
+.containerplayer2-mensaje{
+  margin-top: 15px;
+  background: rgba(0, 0, 255, 0.7);
+  font-weight: bold;
+  font-size: 120%;
+  color: white;
+  text-align: center;
+  border-radius:10px;
+}
+.container-descripcion-mensaje{
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 100%;
+  color: white;
+  text-align: center;
+  border-radius:10px;
+  max-height: 350px;
+}
+.container-nombre{
+  margin-top: 50px;
+  font-weight: bold;
+  border: 2px solid white;
+  font-size: 100%;
+  color: white;
+  text-align: center;
+  border-radius:10px;
+}
+.container-reto{
+  margin-top: 50px;
+  background: rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+  border: 2px solid white;
+  font-size: 100%;
+  color: white;
+  text-align: center;
+  border-radius:10px;
+}
+.container-descripcion-reto{
+  margin-top: 15px;
+  background: rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+  font-size: 100%;
+  color: white;
+  text-align: center;
+  border-radius:10px;
+}
+.containerplayer1-reto{
+  margin-top: 15px;
+  background: rgba(255, 0, 0, 0.7);
+  font-weight: bold;
+  font-size: 120%;
+  color: white;
+  text-align: center;
+  border-radius:10px;
+}
+.containerplayer2-reto{
+  margin-top: 15px;
+  background: rgba(0, 0, 255, 0.7);
+  font-weight: bold;
+  font-size: 120%;
+  color: white;
+  text-align: center;
+  border-radius:10px;
+}
+.textvertical {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    padding: 0px;
+}
+.sizeletterscas{
+  font-size: 22px;
+}
+/*-----------imagenes----*/
+.changebtn{
+  background: blue !important;
+  border: 1px solid white;
+  color:white;
+
+}
+.btnchangerojo{
+  border: 1px solid white;
+  color: white;
+  font-size: 25px;
+
+}
+
+/*-----------imagenes----*/
+
+.col-left-right{
+    max-width: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+.board{
+    max-width: 1000px;
+}
+.colcenter{
+    max-width: 702px;
+    padding: 0px;
+    border: none;
+}
+.cuadrados{
+    width: 100px;
+    height: 100px;
+    border: 1px black solid;
+    padding: 10px;
+}
+.rectangulos{
+    height: 78px;
+    width: 100px;
+    border: 1px black solid;
+    text-align: center;
+}
+
+.rectangulos1{
+    height: 100px;
+    width: 78px !important;
+    border: 1px black solid;
+    padding: 0;
+    text-align: center;
+}
+.brd-r{ /**Arreglar el borde derecho**/
+    border-right: 5px black solid;
+}
+.center{
+    width: 702px;
+    height: 702px;
+    border: 1px black solid;
+    margin: 0px;
+}
+
+.ico{
+    font-size: 25px;
+    color: #000000;
+}
+.containerinstruccion{
+    text-align: justify;
+}
+
+/*--------------- IMAGENES DE EJERCICIOS ---------------*/
+.exercises{
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.ejercicio{
+  font-size: 75%;
+}
+.go{
+  width: 100%;
+  margin: 0 auto;
+}
+/***********Casillas************/
+#c1{
+    background-image: url("./img/icon/go.png");
+    background-size: cover;
+}
+#c2{
+    background-image: url("./img/exercises/lunge.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c3{
+    background-image: url("./img/icon/run-blue.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c4{
+    background-image: url("./img/exercises/pushUp.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c5{
+    background-image: url("./img/icon/mancuerna-azul.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c6{
+    background-image: url("./img/exercises/chairStepUp.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c7{
+    background-image: url("./img/icon/run-blue.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c8{
+    background-image: url("./img/exercises/jumpingJacks.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c9{
+    background-image: url("./img/icon/mancuerna-azul.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c10{
+    background-image: url("./img/exercises/kneesPull-Ins.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c12{
+    background-image: url("./img/exercises/bodyweightSquats.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#c13{
+    background-image: url("./img/icon/run-yellow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 18px;
+}
+#c14{
+     background-image: url("./img/exercises/pelvicscoop.png");
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position-x: 22px;
+ }
+#c15{
+    background-image: url("./img/icon/mancuerna-amarilla.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+}
+#c16{
+      background-image: url("./img/exercises/elevatedSidePlank.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+}
+#c17{
+    background-image: url("./img/icon/run-yellow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 18px;
+}
+#c18{
+    background-image: url("./img/exercises/kneeBentPushUp.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 15px;
+}
+#c19{
+    background-image: url("./img/icon/mancuerna-amarilla.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+}
+#c20{
+    background-image: url("./img/exercises/bodyweightSquats.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#c22{
+    background-image: url("./img/exercises/plankLegRaise.png ");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c23{
+    background-image: url("./img/icon/mancuerna-roja.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c24{
+    background-image: url("./img/exercises/jumpingJacks.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c25{
+    background-image: url("./img/icon/run-red.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c26{
+    background-image: url("./img/exercises/sidePlank.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c27{
+    background-image: url("./img/icon/mancuerna-roja.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c28{
+    background-image: url("./img/exercises/sideKick.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c29{
+    background-image: url("./img/icon/run-red.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c30{
+    background-image: url("./img/exercises/rotation.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c32{
+     background-image: url("./img/exercises/pelvicscoop.png");
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position-x: 22px;
+ }
+ #c33{
+    background-image: url("./img/icon/run-green.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 18px;
+}
+ #c34{
+     background-image: url("./img/exercises/bodyweightSquats.png");
+     background-size: contain;
+     background-repeat: no-repeat;
+ }
+ #c35{
+    background-image: url("./img/icon/mancuerna-verde.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+}
+ #c36{
+     background-image: url("./img/exercises/sideKick.png");
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position-x: 5px;
+     background-position-y: 10px;
+
+ }
+  #c37{
+    background-image: url("./img/icon/run-green.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 18px;
+}
+ #c38{
+     background-image: url("./img/exercises/jumpingJacks.png");
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position-x: 8px;
+ }
+ #c39{
+    background-image: url("./img/icon/mancuerna-verde.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+}
+ #c40{
+     background-image: url("./img/exercises/pushUp.png");
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position-x: 16px;
+ }
+
+/**********Ficha***********/
+.ficha1{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    background-color: #ee1111;
+    border: 3px solid #000000;
+    border-radius:20px;
+    margin: 5px;
+}
+.ficha2{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    background-color: #0000FF;
+    border: 3px solid #000000;
+    border-radius:20px;
+    margin: 5px;
+}
+/*-------------------*/
